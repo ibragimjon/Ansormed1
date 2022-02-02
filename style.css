@@ -1,0 +1,233 @@
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    line-height: 2.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #444444;
+}
+.container{
+    max-width: 116rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.site-header{
+    padding-top:2.4rem;
+    padding-bottom: 2.4rem;
+}
+.site-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-logo{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.site-logo-img{
+    margin-right: 1.6rem;
+}
+.site-logo-text{
+    font-weight: 600;
+    font-size: 2.4rem;
+    color: #222222;
+}
+ .site-logo-text:hover{
+     color: #de2e54;
+ }
+ .site-logo:active{
+     opacity:0.8;
+ }
+ .sitenav-list{
+     display: flex;
+     list-style: none;
+     padding: 0;
+     margin: 0;
+ }
+ .sitenav-item:not(last-child){
+     margin-right: 3.2rem;
+ }
+ .sitenav-link{
+     font-size: 1.4rem;
+     font-weight: 700;
+     line-height: 2.1rem;
+     letter-spacing:0.5rem;
+     text-decoration: none;
+     color: #222222;
+     text-transform: uppercase;
+ }
+ .sitenav-link:hover{
+     color: #de2e54;
+ }
+ .sitenav-link:active{
+     opacity: 0.8;
+ }
+ .main-button{
+     text-decoration: none;
+     background-color: #de2e54;
+     font-size: 1.5rem;
+     font-weight: 700;
+     font-family: 'Open Sans Condensed', sans-serif;
+     color: #fff;
+     padding: 1.2rem 2.4rem;
+     border-radius: 0.8rem;
+     border: 0.2rem solid #de2e54;
+     letter-spacing: 0.2rem;
+     text-transform: uppercase;
+ }
+ .main-button:hover{ 
+     color: #de2e54;
+     background-color: #fff;
+
+ }
+ .main-button:active{
+     background-color: rgba(222, 46, 84, 0.8);
+     color: #fff;
+     border-color: transparent;
+ }
+ .features{
+     background-color: #0eb4c1;
+ }
+ .features-header{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    line-height: 4.3rem;
+    
+ }
+ .features-list{
+     list-style: none;
+ }
+ .features-list-header{
+     display: flex;
+     list-style: none;
+     
+ }
+ .features-cont{
+     align-self: center;
+ }
+ .hero{
+     background-color: #0eb4c1;
+     color: #fff;
+ }
+ .hero-section-container{
+     display: flex;
+     justify-content: space-between;
+ }
+ .hero-content{
+     width: 50rem;
+     margin-top: 12rem;
+     margin-bottom:12rem;
+ }
+ .hero-header{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 4.3rem;
+    margin-top: 0;
+    margin-bottom: 1.6rem;
+ }
+ .hero-img{
+     align-self: flex-end;
+ }
+ .hero-text{
+     line-height: 2.7rem;
+     font-size: 1.8rem;
+     margin-bottom: 3.6rem;
+ }
+ .hero-button{
+     color: #fff;
+ }
+ .hero-button:hover{
+    background-color: rgb(222, 46, 84, 0.8);
+    color: #fff;
+    border-color: transparent;
+ }
+ .hero-button:active{
+     background-color:  rgb(222, 46, 84, 0.6);
+ }
+ .index-servisec{
+     padding-top: 12rem;
+     padding-bottom: 12rem;
+ }
+ .index-servisec-header{
+     text-align: center;
+     color: #000;
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-weight: 700;
+     font-size: 3.6rem;
+     line-height: 4.3rem;
+     margin-bottom: 5.6rem;
+ }
+ .index-servisec-list{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     width: 86.4rem;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 6rem;
+ }
+ 
+.sale-item:not(last-child){ 
+     margin-bottom: 8rem; 
+}
+ .sale-cont{
+     display: flex;
+ }
+ .index-servisec-img{
+     margin-right: 6.4rem;
+ }
+ .index-servisec-title{
+    font-weight: 700;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.4rem;
+    color: #222;
+    margin-bottom: 2.4rem;
+}
+.index-servis-action{
+    display: flex;
+    justify-content: center;
+}
+.index-servise-ds{
+    margin: 0;
+}
+ .site-footer{
+     background-color: #2b2323;
+     padding-top:  2.4rem;
+     padding-bottom:  2.4rem;
+ }
+ .site-footer-container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .site-footer-logo-text{
+     color: #fff;
+ }
+.site-footer-logo-text:active{
+    opacity: 0.8;
+    color: #fff ;
+}
+ .site-footer-link{
+     color: #fff;
+ }
+ .site-footer-link:active{
+     opacity: 0.8;
+     color: #fff;
+ }
